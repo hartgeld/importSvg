@@ -9,6 +9,7 @@ svg{
  }
 
 div{
+	position: relative;
 	display:inline-block;
 	border-style: solid;
     border-width: 2px;
@@ -23,4 +24,30 @@ div{
 	width: 100px;
 	border-style: none;
 
+}
+p{
+	color: grey;
+}
+
+input.vertical {
+	-webkit-appearance: slider-vertical;
+	writing-mode: bt-lr;
+}
+
+input[type=range],
+	::-moz-range-track,
+	 ::-ms-track {
+	 -webkit-appearance: none;
+	 background-color: 3f91e5;
+	 width: 250px;
+	 height:20px;
+}
+
+::-webkit-slider-thumb,
+	::-moz-range-thumb,
+	 ::-ms-thumb {
+	-webkit-appearance: none;
+	background-color: #666;
+	width: 10px;
+	height: 20px;
 }
