@@ -82,8 +82,8 @@
 	</g>
 	<g id="SYMBOLZ">
 		<g id=":">
-			<polyline fill="none" stroke="#000000" stroke-width="20" stroke-miterlimit="10" points="100,300 300,300 300,700 100,700 
-				100,300 			"/>
+			<polyline fill="none" stroke="#000000" stroke-width="20" stroke-miterlimit="10" points="100,300 300,300 300,500 300,700 
+				100,700 100,500 100,300 			"/>
 			<line fill="none" stroke="#000000" stroke-width="20" stroke-miterlimit="10" x1="100" y1="500" x2="300" y2="500"/>
 		</g>
 		<g id="_x3B_">

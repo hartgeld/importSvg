@@ -7,6 +7,8 @@
 	100,800 100,600 100,500 100,200 300,200 500,200 "/>
 <line fill="none" stroke="#000000" stroke-width="20" stroke-miterlimit="10" x1="300" y1="200" x2="300" y2="500"/>
 <line fill="none" stroke="#000000" stroke-width="20" stroke-miterlimit="10" x1="300" y1="600" x2="300" y2="800"/>
-<polyline fill="none" stroke="#000000" stroke-width="20" stroke-miterlimit="10" points="100,500 300,500 500,500 "/>
-<polyline fill="none" stroke="#000000" stroke-width="20" stroke-miterlimit="10" points="100,600 300,600 500,600 "/>
+<line fill="none" stroke="#000000" stroke-width="20" stroke-miterlimit="10" x1="300" y1="500" x2="500" y2="500"/>
+<line fill="none" stroke="#000000" stroke-width="20" stroke-miterlimit="10" x1="100" y1="500" x2="300" y2="500"/>
+<line fill="none" stroke="#000000" stroke-width="20" stroke-miterlimit="10" x1="300" y1="600" x2="500" y2="600"/>
+<line fill="none" stroke="#000000" stroke-width="20" stroke-miterlimit="10" x1="100" y1="600" x2="300" y2="600"/>
 </svg>
