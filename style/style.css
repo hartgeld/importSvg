@@ -2,7 +2,12 @@ svg{
 	visibility: hidden;
 }
 
- body {padding: 0; margin: 0;} 
+ body {
+ 	padding: 0; 
+ 	margin: 0;
+    background-color: rgb(245,245,245);
+
+ } 
 
  element.style{
  	visibility: visible;
@@ -12,42 +17,64 @@ div{
 	position: relative;
 	display:inline-block;
 	border-style: solid;
-    border-width: 2px;
+    border-top:2px;
+    border-left:3px;
+    /*border-width: 1px;*/
     border-color: white;
+    background-color: rgb(245,245,245);
 }
 
 .letterInfo{
 	display: initial;
-	position: absolute;
-	top: 0;
-	left: 0;
+	position: relative;
+	top: 5px;
+	left: 8px;
 	width: 100px;
 	border-style: none;
-
 }
 p{
 	color: grey;
+	margin: 0;
 }
-
+/*
 input.vertical {
 	-webkit-appearance: slider-vertical;
 	writing-mode: bt-lr;
 }
-
-input[type=range],
-	::-moz-range-track,
-	 ::-ms-track {
-	 -webkit-appearance: none;
-	 background-color: 3f91e5;
-	 width: 250px;
-	 height:20px;
+*/
+.container{
+	min-width: 100%;
 }
 
-::-webkit-slider-thumb,
-	::-moz-range-thumb,
-	 ::-ms-thumb {
-	-webkit-appearance: none;
-	background-color: #666;
-	width: 10px;
-	height: 20px;
+.navbar{
+	left: 0;
+	height: 50px;
+	background-color: rgba(255,255,255, 1.0);
+	border-style: none;
+}
+
+.fixed{
+	position: fixed;
+	z-index: 1024;
+}
+
+.flexcontainer{
+	
+	display: -webkit-flex;
+	display: flex;
+	
+	-webkit-flex-direction: row;
+	flex-direction: row;
+
+	-webkit-justify-content: flex-start;
+	justify-content: flex-start;
+
+	-webkit-align-items: center;
+   align-items: center;
+
+   -webkit-justify-content: left;
+   justify-content: left;
+}
+.letter{
+	font-weight: bold;
 }
